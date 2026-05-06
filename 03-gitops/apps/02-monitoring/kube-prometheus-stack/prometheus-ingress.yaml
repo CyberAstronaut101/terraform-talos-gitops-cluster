@@ -9,7 +9,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: prometheus.cluster
+    - host: prometheus.k8s.ejmlab.local
       http:
         paths:
           - path: /

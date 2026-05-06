@@ -9,7 +9,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: grafana.cluster
+    - host: grafana.k8s.ejmlab.local
       http:
         paths:
           - path: /

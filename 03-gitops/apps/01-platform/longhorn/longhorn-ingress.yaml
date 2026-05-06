@@ -9,7 +9,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: longhorn.cluster
+    - host: longhorn.k8s.ejmlab.local
       http:
         paths:
           - path: /

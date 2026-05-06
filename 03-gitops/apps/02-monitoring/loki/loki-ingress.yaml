@@ -10,10 +10,10 @@ spec:
   ingressClassName: nginx
   tls:
     - hosts:
-        - loki.cluster
+        - loki.k8s.ejmlab.local
       secretName: loki-tls
   rules:
-    - host: loki.cluster
+    - host: loki.k8s.ejmlab.local
       http:
         paths:
           - path: /
